@@ -63,7 +63,7 @@ export default function Payment (){
   };
   function submit(){
     if(validation){
-      const url = `${BASE_URL}//userCount`;
+      const url = `${BASE_URL}/userCount`;
       
     const promisse = axios.put(url,data,config);
     promisse.then((sucess) => {
